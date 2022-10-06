@@ -56,7 +56,7 @@ void parsefile(FILE *file)
 	meta->stack = NULL;
 	meta->buf = NULL;
 
-	while (getline (&(meta->buf), &size, meta->file) != -1)
+	while (getline(&(meta->buf), &size, meta->file) != -1)
 	{
 		line.number++;
 		parseline(&line, meta->buf);
