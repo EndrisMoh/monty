@@ -18,4 +18,4 @@ How to work with git submodules
 
 Compile with:
 
-gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+`gcc -Wall -Werror -Wextra -pedantic *.c -o monty`
